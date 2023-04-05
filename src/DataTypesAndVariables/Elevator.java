@@ -16,8 +16,8 @@ public class Elevator {
         int extraCourse = n % p == 0 ? 0 : 1;
         int totalCourses = fullCourses + extraCourse;
 
-//        System.out.println("Number of courses needed: " + totalCourses);
-        System.out.println(totalCourses);
+        System.out.println("Number of courses needed: " + totalCourses);
+//        System.out.println(totalCourses);
         scanner.close();
     }
 }
