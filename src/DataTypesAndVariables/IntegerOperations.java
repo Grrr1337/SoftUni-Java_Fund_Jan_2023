@@ -11,7 +11,7 @@ public class IntegerOperations {
         for (int i = 0; i < nums.length; i++) {
             boolean validInput = false;
             while (!validInput) {
-//                System.out.print("Enter number " + (i+1) + ": ");
+                System.out.print("Enter number " + (i+1) + ": ");
                 if (scanner.hasNextInt()) {
                     nums[i] = scanner.nextInt();
                     validInput = true;
@@ -26,8 +26,8 @@ public class IntegerOperations {
         int division = sum / nums[2];
         int multiplication = division * nums[3];
 
-//        System.out.println("Result: " + multiplication);
-        System.out.println(multiplication);
+        System.out.println("Result: " + multiplication);
+//        System.out.println(multiplication);
         scanner.close();
     }
 }
