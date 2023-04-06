@@ -9,7 +9,7 @@ public class AdvertisementMessage {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-//        System.out.print("Enter the number of messages to generate: ");
+        System.out.print("Enter the number of messages to generate: ");
         int count = scanner.nextInt();
 
         AdvertisementMessageGenerator advertisementMessage = new AdvertisementMessageGenerator(
