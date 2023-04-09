@@ -6,13 +6,13 @@ public class CharactersInRange {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-//        System.out.print("Enter the starting character: ");
+        System.out.print("Enter the starting character: ");
         char start = scanner.next().charAt(0);
 
-//        System.out.print("Enter the ending character: ");
+        System.out.print("Enter the ending character: ");
         char end = scanner.next().charAt(0);
 
-//        System.out.print("Characters in range: ");
+        System.out.print("Characters in range: ");
         printCharsInRange(start, end);
     }
 
