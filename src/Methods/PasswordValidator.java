@@ -41,7 +41,7 @@ public class PasswordValidator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-//        System.out.print("Enter password: ");
+        System.out.print("Enter password: ");
         String password = scanner.nextLine();
         isValidPassword(password);
 
