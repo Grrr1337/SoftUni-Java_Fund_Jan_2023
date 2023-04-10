@@ -38,7 +38,7 @@ public class TopNumber {
 
         List<Integer> topNumbers = findTopNumbers(n);
 
-//        System.out.println("Top numbers up to " + n + ": ");
+        System.out.println("Top numbers up to " + n + ": ");
         for (int i : topNumbers) {
             System.out.println(i);
         }
