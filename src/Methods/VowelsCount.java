@@ -6,11 +6,11 @@ public class VowelsCount {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-//        System.out.print("Enter a string: ");
+        System.out.print("Enter a string: ");
         String str = input.nextLine();
 
         int vowelsCount = countVowels(str);
-//        System.out.println("The number of vowels in the string is: " + vowelsCount);
+        System.out.println("The number of vowels in the string is: " + vowelsCount);
         System.out.println(vowelsCount);
         input.close();
     }
