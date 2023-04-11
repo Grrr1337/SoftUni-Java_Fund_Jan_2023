@@ -8,7 +8,9 @@ public class AddAndSubtract {
 
         System.out.print("Input first integer: ");
         int num1 = scanner.nextInt();
+        System.out.println("Input second integer: ");
         int num2 = scanner.nextInt();
+        System.out.println("Input third integer: ");
         int num3 = scanner.nextInt();
 
         int result = sum(num1, num2) - num3;
